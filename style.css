@@ -1,0 +1,23 @@
+.circle{
+
+    animation-name: myAnimation;
+    animation-duration: 0.5s;
+    box-shadow: 1px 1px 70px 20px rgba(234, 218, 128, 0.722);
+    animation-iteration-count: infinite;
+    animation-fill-mode: forwards;
+
+}
+
+@keyframes myAnimation{
+
+from{
+
+    box-shadow: 1px 1px 70px 0px rgba(234, 218, 128, 0.722)
+}
+
+to{
+
+    box-shadow: 1px 1px 70px 20px rgba(234, 218, 128, 0.722)
+}
+
+}
